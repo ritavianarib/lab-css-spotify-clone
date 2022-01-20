@@ -1,0 +1,222 @@
+@font-face {
+            font-family: 'Proxima Nova';
+            src: url('font/Proxima\ Nova\ Font.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            }
+
+* {
+    margin: 0;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+
+
+.clearfix {
+           visibility:hidden;
+           display:block;
+           content: “”;
+           clear:both;
+           height:0;
+          }
+
+/* ----------------------------------------------  Nav  --------------------------------------------------------- */
+
+.logo {
+       width: 10%;
+       height: auto;
+       margin-left: 30px;
+      }
+
+nav {
+     font-size: 20px;
+     color: black !important;
+     display: flex;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 90px;
+     background-color: white;
+    }
+
+  .navbar-nav {
+               text-align: right;
+               margin-left: 720px;
+              }
+
+  .navbar nav {
+               display: flex;
+               align-items: center;
+              }
+
+  .navbar nav ul {
+                  display: flex;
+                  list-style-type: none;
+                 }
+
+ .nav-item { margin-left: 16.66%; }
+
+nav a {
+       text-decoration: none;
+       color: rgb(28,28,28);
+      }
+
+nav a:hover  {
+              text-decoration: none;
+              color: rgb(39 177 110) !important;
+             }
+
+nav a:visited {
+               color: rgb(49, 48, 48) !important;
+               text-decoration: none;
+              }
+
+
+/* ---------------------------------------------------------------------  Section 1  ----------------------------------------------------------------*/
+
+
+.image_hero {
+             background-image: url(./images/landing.jpg);
+             background-size: cover;
+             width: 100%;
+             height: 920px;
+             margin: 0;
+             margin-top: 5px;
+            }
+
+
+.hero_text {
+            color: rgb(255, 255, 255);
+            font-family: 'Proxima Nova', sans-serif;
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+            position: absolute;
+            top: 420px;
+            left: 24%;
+           }
+
+
+.space { padding-top: 25px; }
+
+
+
+.center {
+         text-align: center;
+         padding-top: 50px;
+         font-size: 35px;
+        }
+
+
+.container {
+            width: 100%;
+            padding-top: 5px;
+            display: flex;
+            justify-content: space-between;
+           }
+
+.container > div { flex: 1; }
+
+.span_1 { width: 25%; }
+.span_2 { width: 25%; }
+.span_3 { width: 25%; }
+
+.group1 { margin: 50px 0px; }
+
+.music {
+        text-align: center;
+        padding-left: 11.0%;
+       }
+
+.hquality {
+           text-align: center;
+           padding-top: 10px;
+          }
+
+.devices {
+          text-align: center;
+          padding-right: 12%;
+         }
+
+h2 {
+    padding: 20px 0px 15px 0px;
+    color:rgb(39 177 110);
+   }
+
+
+
+/* ----------------------------------------------------------------------- Section 2 ---------------------------------------------------------------------*/
+
+
+.green {
+        background-color: rgb(39 177 110);
+        margin: 50px 25px 0px 25px;
+       }
+
+.title {
+        font-size: 35px;
+        padding: 45px 0px 5px 90px;
+        text-align: left;
+        color: rgb(255, 255, 255, 255);
+       }
+
+hr {
+    width: 30%;
+    text-align: left;
+    margin-left: 90px;
+    border: 0;
+    border-top: 2px solid #fff;
+    padding-top: 0px;
+   }
+
+.final-text {
+             color: #fff;
+             padding-top: 20px;
+            }
+
+h4 { font-size: 30px; }
+
+
+.search, .browse, .discover { padding: 25px 0px 25px 90px; }
+
+.txt {
+      padding-top: 23px;
+      line-height: 25px;
+     }
+
+.spotify_white {
+                padding-top: 45%;
+                padding-left: 100px;
+               }
+
+
+.spotify_app {
+              padding-top: 0px;
+              padding-bottom: 43px;
+             }
+
+.section {
+	        clear: both;
+	        padding: 0px;
+	        margin: 0px;
+         }
+
+.col {
+	    display: block;
+	    float:left;
+	    margin: 1% 0 1% 1.6%;
+     }
+
+
+.group:before, .group:after {
+                             content:"";
+                             display:table;
+                            }
+
+.group:after { clear:both; }
+
+.group { zoom:1; }
+
+.span_1_of_3 { width: 32.6%; }
+.span_2_of_3 { width: 32.6%; }
+.span_3_of_3 { width: 32,6%; }
